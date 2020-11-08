@@ -26,13 +26,15 @@ import { CustomersComponent } from './customers/customers.component';
 import { HttpClientInMemoryWebApiModule, InMemoryDbService } from 'angular-in-memory-web-api';
 import { HttpClientModule } from '@angular/common/http';
 import { DialogBoxComponent } from './dialog-box/dialog-box.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CustomersComponent,
-    DialogBoxComponent
+    DialogBoxComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
